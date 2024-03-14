@@ -1,3 +1,5 @@
+import React from 'react';
+import { ClockIcon } from 'dpw-uds-icons-react';
 import logo from './logo.svg';
 import './App.css';
 
