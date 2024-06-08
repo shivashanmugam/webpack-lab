@@ -1,0 +1,39 @@
+{
+  "name": "webpack-lab",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "npx webpack-dev-server",
+    "build": "webpack",
+    
+    "build:prod": "webpack --config webpack.config.prod.js --mode production"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/shivashanmugam/webpack-lab.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/shivashanmugam/webpack-lab/issues"
+  },
+  "homepage": "https://github.com/shivashanmugam/webpack-lab#readme",
+  "dependencies": {
+    "dpw-uds-icons-react": "^1.0.39",
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0"
+  },
+  "devDependencies": {
+    "@babel/core": "^7.24.0",
+    "@babel/preset-env": "^7.24.0",
+    "@babel/preset-react": "^7.23.3",
+    "babel-loader": "^9.1.3",
+    "webpack": "^5.90.3",
+    "webpack-bundle-analyzer": "^4.10.1",
+    "webpack-cli": "^5.1.4",
+    "webpack-dev-server": "^5.0.3"
+  }
+}
